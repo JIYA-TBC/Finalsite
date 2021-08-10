@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Book Your Room</title>
+<link href="form.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row">
+				<img src="images/Logo.png" class="logo">
+				<ul class="main-nav" id="check-class">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Aboutus.html">About Us</a></li>
+					<li><a href="Form.html">Book Your Room</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contactus.html">Contact Us </a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+<h1><u>Hotel Booking Form</u></h1>
+    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>Book Now</h2>
+						<div class="book-form agileits-login">
+							<form action="#" method="post">
+								<div class="agileits_reservation_grid">
+								<div class="phone_email">
+									<div class="form-text">
+										<input type="text" name="Name" placeholder="First name" required="" autocomplete="off">
+									</div> 
+								</div>
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<input type="text" name="Name" placeholder="Last name" required="" autocomplete="off">
+									</div>
+								</div>
+								
+								<div class="phone_email">
+									<div class="form-text">
+										<input type="text" name="Phone no" placeholder="Phone number" required="" autocomplete="off">
+									</div> 
+								</div> 
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<input type="email" name="email" placeholder="Email" required="" autocomplete="off">
+									</div>
+								</div>
+									
+								
+									<div class="span1_of_1 phone_email1">
+										<div class="book_date"> 
+												<input  id="datepicker" name="Text" type="text" value="" placeholder="Arrival Date"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+
+										</div>					
+									</div>
+									<div class="span1_of_1 phone_email">
+										<div class="book_date">
+												<input  id="datepicker1" name="Text" type="text" value="" placeholder="Departure Date"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+
+										</div>					
+									</div>
+									<div class="span1_of_1">
+										<div class="section_room">
+											<select id="room" onchange="change_room(this.value)" class="frm-field required">
+												<option value="">No.of guests</option>
+												<option value="">1</option>
+												<option value="">2 </option>         
+												<option value="">3</option>
+												<option value="">4 </option>
+												<option value="">5 </option>
+												<option value="">6 </option>
+											</select>
+										</div>	
+									</div>
+									<div class="span1_of_1 phone_email1">
+										<div class="section_room">
+                                            <select id="guest" onchange="change_room(this.value)" class="frm-field required">
+                                                <option value="">Room Type</option>
+												<option value="">Royal Pent House</option>
+												<option value="">Ocean Terrace Suit</option>
+												
+							
+											</select>
+										</div>	
+									</div>
+									<div class="clear"></div>
+								</div> 
+								<input type="submit" value="Book Now">
+								<input type="reset" value="Reset">
+								<div class="clear"></div>
+							</form>
+						</div>
+
+		</div>
+   </div>
+  <footer>
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-section feeback">
+                        <p><center> Help us in serving you better</center></p><br>
+                        <p><a href="feedback.html"  class="feedback">  Give Feedback </a></p>
+                        
+                    
+                    </div>
+                    <div class="footer-section links">
+                        
+                        <h3><u><center>The Royal Cuisine</center></u></h3><br>
+                        <h3><u><center><a class="newwin" href="index.html" target="_blank">New Window</a></center></u></h3><br> 
+                    </div>
+                    <div class="footer-section">
+                        <div class="contact">
+                            <span><img class="imglink" src="images/6.png" width="5%"><a class="linksof" href="tel:123-456-789">123-456-789</a></span><br><br>
+                         <span ><img class="imglink" src="images/7.png" width="5%"><a class="linksof" href="mailto:info@theroyalcusine.com">info@theroyalcusine.com</a></span>
+                        </div><br>
+                    </div>   
+                </div>
+                <div class="footer-bottom">
+                    &copy; The Royal Cuisine | Designed by Jiya Yadav<br>
+                    Copyright 2021 The Royal Cuisine Private Limited, Nepal. All rights reserved
+                </div>
+            </div>
+            </div>
+        </footer>
+</body>
+</html>

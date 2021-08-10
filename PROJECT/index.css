@@ -1,0 +1,234 @@
+body
+    {
+        font-size: 15px;
+        overflow-x: hidden;
+        font-family: 'Flamenco', cursive;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    header
+    {
+    height: 100vh;
+    }
+    .row{
+        max-width: 1180px;
+        margin: 0 auto 1px;
+    }
+    .logo{
+        height: 80px;
+        width: auto;
+        
+        margin-top: 15px;
+    }
+    .main-nav{
+        float: right;
+        margin-top: 50px;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .main-nav li a{
+        padding: 5px ;
+        color: #900C3F;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 110%;
+    }
+    .main-nav li a:hover
+    {
+        border-bottom: 2px solid ;
+        color: brown;
+    }
+
+    .main-content-header
+    {
+
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+    .about
+    {
+        height: 90vh;
+    }
+       .about-pages
+    {
+        width: 35%;
+        margin-left: 50px;
+    }
+    .about .about-pages div p
+    {
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 650px;
+        margin-top: -280px;
+        margin-bottom: 120px;
+    }
+
+    footer
+    {
+        height: 50vh;
+        background-color: bisque;
+        
+    }
+    .slider
+    {
+        width: 102%;
+        height: 100vh;
+        overflow: hidden;
+        
+    }
+    .slides
+    {
+        width: 500%;
+        height: 507px;
+        display: flex;
+    }
+    .slides input
+    {
+        display: none;
+
+    }
+
+    .slide
+    {
+        width: 20%;
+        transition: 2s;
+
+    }
+
+    .slide img
+    {
+        width: 100%;
+        height: 120%;
+    } 
+  
+    .navigation-manual
+    {
+        position: absolute;
+        width: 800px;
+        margin-top: 331px;
+        display: flex;
+        justify-content: center;
+    }
+    .manual-btn
+    {
+        border: 3px solid #40D3DC;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+
+    }
+    .manual-btn:not(:last-child)
+    {
+        margin-right: 40px;
+    }
+    .manual-btn:hover
+    { 
+        background: #40D3DC;
+    }
+
+    #radio1:checked ~ .first
+    {
+        margin-left: 0;
+    }
+    #radio2:checked ~ .first
+    {
+        margin-left: -20%;
+    }
+    #radio3:checked ~ .first
+    {
+        margin-left: -40%;
+    }
+    #radio4:checked ~ .first
+    {
+        margin-left: -60%;
+    }
+    #radio5:checked ~ .first
+    {
+        margin-left: -80%;
+    }
+
+    
+  footer
+  {
+      background: #303036;
+      color: #d3d3d3;
+      height: 40vh;
+      position: relative;
+      margin-top: 50px;
+  
+  }
+  .footer .footer-content
+  {
+  height: 150px;
+  display: flex;	
+  }
+  .footer .footer-content .footer-section
+  {
+      flex: 1;
+      padding: 45px;   
+  }
+  .footer .footer-bottom
+  {
+      background: #303036;
+      color: white;
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      padding-top: 20px;
+
+  }
+  .feedback
+  {
+      background-color: #A9A9A9;
+      color: white;
+      position: absolute;
+      left: 170px;
+      padding: 10px;
+      padding-right: 30px;
+      border: 1px solid white;
+      border-radius: 200px;
+      display: inline-block;
+      text-decoration: none;
+      padding-left: 30px;
+  
+  }
+  .feedback:hover
+  {
+      background-color:white;
+  }
+  .linksof{
+      text-decoration: none;
+      color:white;
+      padding: 10px;
+  }
+  .newwin{
+      background-color: #cf29df;
+      color: black;
+      position: absolute;
+      left: 670px;
+      padding: 5px;
+      padding-right: 30px;
+      border: 1px solid white;
+      border-radius: 100px;
+      display: inline-block;
+      text-decoration: none;
+      padding-left: 30px;
+  }
+    
+  
+  
+

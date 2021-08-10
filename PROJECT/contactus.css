@@ -1,0 +1,174 @@
+header
+.row{
+        max-width: 1180px;
+        margin: 0 auto 1px;
+    }
+    .logo{
+        height: 80px;
+        width: auto;
+        margin-top: 15px;
+    }
+    .main-nav{
+        float: right;
+        margin-top: 50px;
+    }
+    .main-nav li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+        z-index: -3;
+    }
+    .main-nav li a{
+        padding: 5px 0;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 200px;
+        font-size: 90%;
+        z-index: -3;
+    }
+    .main-nav li a:hover
+    {
+        border-bottom: 1px solid brown;
+    }
+
+body{
+  background: #fece0c;
+  
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 1200px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+footer
+  {
+      background: #303036;
+      color: #d3d3d3;
+      height: 40vh;
+      position: relative;
+      margin-top: 500px;
+  
+  }
+  .footer .footer-content
+  {
+  height: 150px;
+  display: flex;    
+  }
+  .footer .footer-content .footer-section
+  {
+      flex: 1;
+      padding: 45px;   
+  }
+  .footer .footer-bottom
+  {
+      background: #303036;
+      color: white;
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      padding-top: 20px;
+
+  }
+  .feedback
+  {
+      background-color: #A9A9A9;
+      color: white;
+      position: absolute;
+      left: 170px;
+      padding: 10px;
+      padding-right: 30px;
+      border: 1px solid white;
+      border-radius: 200px;
+      display: inline-block;
+      text-decoration: none;
+      padding-left: 30px;
+  
+  }
+  .feedback:hover
+  {
+      background-color:white;
+  }
+  .linksof{
+      text-decoration: none;
+      color:white;
+      padding: 10px;
+  }
+  .newwin{
+      background-color: #cf29df;
+      color: black;
+      position: absolute;
+      left: 670px;
+      padding: 5px;
+      padding-right: 30px;
+      border: 1px solid white;
+      border-radius: 100px;
+      display: inline-block;
+      text-decoration: none;
+      padding-left: 30px;
+  }
+    
+  
+  
+
